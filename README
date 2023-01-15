@@ -1,0 +1,17 @@
+seamcarve README
+
+Handin: This is my final handin.
+
+Design Choices:
+        To fill in the findLowestCostSeam() method, I made 2 helper methods: getImportance()
+        and getCostDirs(). getImportance() takes in 4 integers: the row and column value of
+        the current pixel and the row and column value of a neighbor pixel. It returns the
+        importance value of the current pixel. getCostDirs() takes in the row and column value
+        of the current cell and a 2D array of integers. It returns a 1D array that contains a cost value
+        and a direction value of the current cell. This program is structured by helper methods that help condense repeated
+        code and clean up the findLowestCostSeam() method. At first, there was two separate
+        helper methods for getting the cost value and the direction value; however, they
+        use many of the same variables so it would be more efficient to combine them into
+        one method.
+
+Known Bugs: none
